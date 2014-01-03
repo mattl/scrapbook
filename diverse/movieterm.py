@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import whrandom,time,string
+import random,time,string
 
 longlines = [
     'gcc -c  -DSTDC_HEADERS=1 -DHAVE_STRING_H=1 -DHAVE_FCNTL_H=1 -DHAVE_SYS_FILE_H=1 -DHAVE_ALLOCA_H=1 -g %s.c',
@@ -25,9 +25,9 @@ shortlines = [
     ]
 
 while(1):
-    print string.lower(whrandom.choice(longlines)) % string.upper(whrandom.choice(shortlines))
-    if(whrandom.random() > 0.2):
-        time.sleep(whrandom.random() * 1)
+    print string.lower(random.choice(longlines)) % string.upper(random.choice(shortlines))
+    if(random.random() > 0.2):
+        time.sleep(random.random() * 1)
     
 
 

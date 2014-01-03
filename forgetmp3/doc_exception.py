@@ -1,1 +1,0 @@
-../diverse/doc_exception.py

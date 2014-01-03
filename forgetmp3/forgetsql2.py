@@ -1,1 +1,0 @@
-../forgetsql2/forgetsql2.py
